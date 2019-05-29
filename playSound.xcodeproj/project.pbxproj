@@ -14,6 +14,10 @@
 		70C9AE642297BC1100EB40E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70C9AE622297BC1100EB40E2 /* LaunchScreen.storyboard */; };
 		70C9AE6F2297BC1200EB40E2 /* playSoundTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70C9AE6E2297BC1200EB40E2 /* playSoundTests.swift */; };
 		70C9AE7A2297BC1200EB40E2 /* playSoundUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70C9AE792297BC1200EB40E2 /* playSoundUITests.swift */; };
+		70C9AE882297BCCB00EB40E2 /* Right.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 70C9AE872297BCCA00EB40E2 /* Right.mp3 */; };
+		70E930A3229E6256004896BD /* 發大財.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 70E930A2229E6256004896BD /* 發大財.mp3 */; };
+		70E930A7229E721A004896BD /* money.gif in Resources */ = {isa = PBXBuildFile; fileRef = 70E930A6229E721A004896BD /* money.gif */; };
+		70E930A9229E728D004896BD /* addGIF.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70E930A8229E728D004896BD /* addGIF.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,10 @@
 		70C9AE752297BC1200EB40E2 /* playSoundUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = playSoundUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		70C9AE792297BC1200EB40E2 /* playSoundUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = playSoundUITests.swift; sourceTree = "<group>"; };
 		70C9AE7B2297BC1200EB40E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		70C9AE872297BCCA00EB40E2 /* Right.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Right.mp3; sourceTree = "<group>"; };
+		70E930A2229E6256004896BD /* 發大財.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "發大財.mp3"; sourceTree = "<group>"; };
+		70E930A6229E721A004896BD /* money.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = money.gif; sourceTree = "<group>"; };
+		70E930A8229E728D004896BD /* addGIF.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addGIF.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,9 +108,13 @@
 				70C9AE592297BC1000EB40E2 /* AppDelegate.swift */,
 				70C9AE5B2297BC1000EB40E2 /* ViewController.swift */,
 				70C9AE5D2297BC1000EB40E2 /* Main.storyboard */,
+				70C9AE872297BCCA00EB40E2 /* Right.mp3 */,
+				70E930A6229E721A004896BD /* money.gif */,
+				70E930A2229E6256004896BD /* 發大財.mp3 */,
 				70C9AE602297BC1100EB40E2 /* Assets.xcassets */,
 				70C9AE622297BC1100EB40E2 /* LaunchScreen.storyboard */,
 				70C9AE652297BC1100EB40E2 /* Info.plist */,
+				70E930A8229E728D004896BD /* addGIF.swift */,
 			);
 			path = playSound;
 			sourceTree = "<group>";
@@ -230,8 +242,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				70C9AE642297BC1100EB40E2 /* LaunchScreen.storyboard in Resources */,
+				70E930A3229E6256004896BD /* 發大財.mp3 in Resources */,
+				70C9AE882297BCCB00EB40E2 /* Right.mp3 in Resources */,
 				70C9AE612297BC1100EB40E2 /* Assets.xcassets in Resources */,
 				70C9AE5F2297BC1000EB40E2 /* Main.storyboard in Resources */,
+				70E930A7229E721A004896BD /* money.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,6 +272,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				70C9AE5C2297BC1000EB40E2 /* ViewController.swift in Sources */,
+				70E930A9229E728D004896BD /* addGIF.swift in Sources */,
 				70C9AE5A2297BC1000EB40E2 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
